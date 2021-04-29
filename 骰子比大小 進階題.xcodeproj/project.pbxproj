@@ -13,6 +13,9 @@
 		578AF1C3263A5F1A00E65846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1C1263A5F1A00E65846 /* Main.storyboard */; };
 		578AF1C5263A5F1F00E65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1C4263A5F1F00E65846 /* Assets.xcassets */; };
 		578AF1C8263A5F1F00E65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1C6263A5F1F00E65846 /* LaunchScreen.storyboard */; };
+		578AF1D1263AA3AC00E65846 /* diceRoll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1D0263AA3AB00E65846 /* diceRoll.mp3 */; };
+		578AF1D4263AA64C00E65846 /* MyMoneyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1D3263AA64C00E65846 /* MyMoneyParticle.sks */; };
+		578AF1DD263AC7CC00E65846 /* Yayyy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 578AF1DC263AC7CC00E65846 /* Yayyy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		578AF1C4263A5F1F00E65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578AF1C7263A5F1F00E65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578AF1C9263A5F1F00E65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578AF1D0263AA3AB00E65846 /* diceRoll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diceRoll.mp3; sourceTree = "<group>"; };
+		578AF1D3263AA64C00E65846 /* MyMoneyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyMoneyParticle.sks; sourceTree = "<group>"; };
+		578AF1DC263AC7CC00E65846 /* Yayyy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yayyy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		578AF1BA263A5F1A00E65846 /* 骰子比大小 進階題 */ = {
 			isa = PBXGroup;
 			children = (
+				578AF1D0263AA3AB00E65846 /* diceRoll.mp3 */,
+				578AF1DC263AC7CC00E65846 /* Yayyy.mp3 */,
 				578AF1BB263A5F1A00E65846 /* AppDelegate.swift */,
 				578AF1BD263A5F1A00E65846 /* SceneDelegate.swift */,
 				578AF1BF263A5F1A00E65846 /* ViewController.swift */,
+				578AF1D3263AA64C00E65846 /* MyMoneyParticle.sks */,
 				578AF1C1263A5F1A00E65846 /* Main.storyboard */,
 				578AF1C4263A5F1F00E65846 /* Assets.xcassets */,
 				578AF1C6263A5F1F00E65846 /* LaunchScreen.storyboard */,
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578AF1D1263AA3AC00E65846 /* diceRoll.mp3 in Resources */,
 				578AF1C8263A5F1F00E65846 /* LaunchScreen.storyboard in Resources */,
+				578AF1D4263AA64C00E65846 /* MyMoneyParticle.sks in Resources */,
 				578AF1C5263A5F1F00E65846 /* Assets.xcassets in Resources */,
+				578AF1DD263AC7CC00E65846 /* Yayyy.mp3 in Resources */,
 				578AF1C3263A5F1A00E65846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
